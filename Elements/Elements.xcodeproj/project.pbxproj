@@ -15,6 +15,7 @@
 		0DAB12941CD9375800DC7103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB12931CD9375800DC7103 /* Assets.xcassets */; };
 		0DAB12971CD9375800DC7103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB12951CD9375800DC7103 /* LaunchScreen.storyboard */; };
 		0DAB12A21CD9375900DC7103 /* ElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12A11CD9375900DC7103 /* ElementsTests.m */; };
+		0DAB12AE1CD938A300DC7103 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		0DAB129D1CD9375900DC7103 /* ElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAB12A11CD9375900DC7103 /* ElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementsTests.m; sourceTree = "<group>"; };
 		0DAB12A31CD9375900DC7103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAB12AC1CD938A300DC7103 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				0DAB12881CD9375800DC7103 /* AppDelegate.m */,
 				0DAB128A1CD9375800DC7103 /* ViewController.h */,
 				0DAB128B1CD9375800DC7103 /* ViewController.m */,
+				0DAB12AC1CD938A300DC7103 /* CustomTableViewCell.h */,
+				0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */,
 				0DAB128D1CD9375800DC7103 /* Main.storyboard */,
 				0DAB12931CD9375800DC7103 /* Assets.xcassets */,
 				0DAB12951CD9375800DC7103 /* LaunchScreen.storyboard */,
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAB12AE1CD938A300DC7103 /* CustomTableViewCell.m in Sources */,
 				0DAB128C1CD9375800DC7103 /* ViewController.m in Sources */,
 				0DAB12891CD9375800DC7103 /* AppDelegate.m in Sources */,
 				0DAB12921CD9375800DC7103 /* Elements.xcdatamodeld in Sources */,
