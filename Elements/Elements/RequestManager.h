@@ -6,8 +6,13 @@
 //  Copyright © 2016 Mulkey, Rodrigo S. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface RequestManager : UIViewController
+typedef void (^ApiConnectorCallback)(id);
 
-@end
+@interface RequestManager : NSObject
+
+@property (nonatomic, copy) ApiConnectorCallback callbackBlock;
+
+- (id)initWithCallback:(ApiConnectorCallback)block;
+- (void)fetchCSVFile;

@@ -17,6 +17,8 @@
 		0DAB12A21CD9375900DC7103 /* ElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12A11CD9375900DC7103 /* ElementsTests.m */; };
 		0DAB12AE1CD938A300DC7103 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */; };
 		0DAB12B11CD9427A00DC7103 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12B01CD9427A00DC7103 /* RequestManager.m */; };
+		0DAB12B61CD94A8700DC7103 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12B51CD94A8700DC7103 /* CHCSVParser.m */; };
+		0DAB12BA1CD94BB800DC7103 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12B91CD94BB800DC7103 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		0DAB12AF1CD9427A00DC7103 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
 		0DAB12B01CD9427A00DC7103 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 		0DAB12B21CD9428C00DC7103 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0DAB12B41CD94A8700DC7103 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		0DAB12B51CD94A8700DC7103 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		0DAB12B81CD94BB800DC7103 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0DAB12B91CD94BB800DC7103 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +96,6 @@
 		0DAB12831CD9375800DC7103 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				0DAB12871CD9375800DC7103 /* AppDelegate.h */,
-				0DAB12881CD9375800DC7103 /* AppDelegate.m */,
 				0DAB128A1CD9375800DC7103 /* ViewController.h */,
 				0DAB128B1CD9375800DC7103 /* ViewController.m */,
 				0DAB12AC1CD938A300DC7103 /* CustomTableViewCell.h */,
@@ -100,8 +104,7 @@
 				0DAB12B01CD9427A00DC7103 /* RequestManager.m */,
 				0DAB128D1CD9375800DC7103 /* Main.storyboard */,
 				0DAB12B21CD9428C00DC7103 /* Constants.h */,
-				0DAB12931CD9375800DC7103 /* Assets.xcassets */,
-				0DAB12951CD9375800DC7103 /* LaunchScreen.storyboard */,
+				0DAB12B71CD94A9200DC7103 /* External */,
 				0DAB12841CD9375800DC7103 /* Supporting Files */,
 			);
 			path = Elements;
@@ -110,6 +113,10 @@
 		0DAB12841CD9375800DC7103 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0DAB12871CD9375800DC7103 /* AppDelegate.h */,
+				0DAB12881CD9375800DC7103 /* AppDelegate.m */,
+				0DAB12931CD9375800DC7103 /* Assets.xcassets */,
+				0DAB12951CD9375800DC7103 /* LaunchScreen.storyboard */,
 				0DAB12981CD9375800DC7103 /* Info.plist */,
 				0DAB12901CD9375800DC7103 /* Elements.xcdatamodeld */,
 				0DAB12851CD9375800DC7103 /* main.m */,
@@ -124,6 +131,25 @@
 				0DAB12A31CD9375900DC7103 /* Info.plist */,
 			);
 			path = ElementsTests;
+			sourceTree = "<group>";
+		};
+		0DAB12B31CD94A7200DC7103 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB12B41CD94A8700DC7103 /* CHCSVParser.h */,
+				0DAB12B51CD94A8700DC7103 /* CHCSVParser.m */,
+			);
+			name = CHCSVParser;
+			sourceTree = "<group>";
+		};
+		0DAB12B71CD94A9200DC7103 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB12B81CD94BB800DC7103 /* Reachability.h */,
+				0DAB12B91CD94BB800DC7103 /* Reachability.m */,
+				0DAB12B31CD94A7200DC7103 /* CHCSVParser */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAB12B61CD94A8700DC7103 /* CHCSVParser.m in Sources */,
 				0DAB12AE1CD938A300DC7103 /* CustomTableViewCell.m in Sources */,
+				0DAB12BA1CD94BB800DC7103 /* Reachability.m in Sources */,
 				0DAB128C1CD9375800DC7103 /* ViewController.m in Sources */,
 				0DAB12891CD9375800DC7103 /* AppDelegate.m in Sources */,
 				0DAB12B11CD9427A00DC7103 /* RequestManager.m in Sources */,

@@ -12,5 +12,7 @@
 
 @property (nonatomic, strong) IBOutlet UITableView *itemsTableView;
 
+@property (strong, nonatomic) NSArray *csvData;
+
 @end
 
