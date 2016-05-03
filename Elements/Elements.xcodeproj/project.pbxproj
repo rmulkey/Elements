@@ -16,6 +16,7 @@
 		0DAB12971CD9375800DC7103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB12951CD9375800DC7103 /* LaunchScreen.storyboard */; };
 		0DAB12A21CD9375900DC7103 /* ElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12A11CD9375900DC7103 /* ElementsTests.m */; };
 		0DAB12AE1CD938A300DC7103 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */; };
+		0DAB12B11CD9427A00DC7103 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB12B01CD9427A00DC7103 /* RequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,9 @@
 		0DAB12A31CD9375900DC7103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DAB12AC1CD938A300DC7103 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		0DAB12AF1CD9427A00DC7103 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		0DAB12B01CD9427A00DC7103 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		0DAB12B21CD9428C00DC7103 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +96,12 @@
 				0DAB128B1CD9375800DC7103 /* ViewController.m */,
 				0DAB12AC1CD938A300DC7103 /* CustomTableViewCell.h */,
 				0DAB12AD1CD938A300DC7103 /* CustomTableViewCell.m */,
+				0DAB12AF1CD9427A00DC7103 /* RequestManager.h */,
+				0DAB12B01CD9427A00DC7103 /* RequestManager.m */,
 				0DAB128D1CD9375800DC7103 /* Main.storyboard */,
+				0DAB12B21CD9428C00DC7103 /* Constants.h */,
 				0DAB12931CD9375800DC7103 /* Assets.xcassets */,
 				0DAB12951CD9375800DC7103 /* LaunchScreen.storyboard */,
-				0DAB12981CD9375800DC7103 /* Info.plist */,
-				0DAB12901CD9375800DC7103 /* Elements.xcdatamodeld */,
 				0DAB12841CD9375800DC7103 /* Supporting Files */,
 			);
 			path = Elements;
@@ -105,6 +110,8 @@
 		0DAB12841CD9375800DC7103 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0DAB12981CD9375800DC7103 /* Info.plist */,
+				0DAB12901CD9375800DC7103 /* Elements.xcdatamodeld */,
 				0DAB12851CD9375800DC7103 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -222,6 +229,7 @@
 				0DAB12AE1CD938A300DC7103 /* CustomTableViewCell.m in Sources */,
 				0DAB128C1CD9375800DC7103 /* ViewController.m in Sources */,
 				0DAB12891CD9375800DC7103 /* AppDelegate.m in Sources */,
+				0DAB12B11CD9427A00DC7103 /* RequestManager.m in Sources */,
 				0DAB12921CD9375800DC7103 /* Elements.xcdatamodeld in Sources */,
 				0DAB12861CD9375800DC7103 /* main.m in Sources */,
 			);
